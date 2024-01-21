@@ -11,7 +11,7 @@ public class Area_and_Volume_of_cubiod_ {
 		h = sc.nextFloat();
 		a = 2*((l*b)+(b*h)+(l*h));
 		v = l*b*h;
-		System.out.println("Area is" +a+ " " +v);
+		System.out.println("Area is" +a+ " "+"Volume is" +v);
 	}
 
 }
