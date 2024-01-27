@@ -29,7 +29,7 @@ public class Bit_Masking_and_Merging {
 		
 		
 		
-		//--> Merging uses OR(|) and in these case also left shift(<<) operator & right shift (>>) operator
+		//--> Merging uses OR(|) and in these case also left shift(<<) operator , right shift (>>) operator & AND (&) operator
 		
 	/*	byte a = 9 , b = 12, c;
 		System.out.println("Binary form of a is "+ String.format("%s",Integer.toBinaryString(a)));
