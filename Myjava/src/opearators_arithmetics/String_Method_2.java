@@ -7,6 +7,7 @@ public class String_Method_2 {
 		
 		String s1 = "www.lootera.in";
 		System.out.println(s1.startsWith("www"));//this will print true as string does starts with www
+		System.out.println(s1.startsWith("loo",4));// we can also use startsWith through any of the indexes
 		System.out.println(s1.startsWith("xyz"));//this will print false as string does'nt starts with xyz
 		System.out.println(s1.endsWith("in"));//this will print true as string does ends with in
 		System.out.println(s1.endsWith("org"));//this will print false as string does not ends with org
