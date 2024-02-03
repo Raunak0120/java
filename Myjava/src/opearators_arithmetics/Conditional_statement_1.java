@@ -17,7 +17,7 @@ public class Conditional_statement_1 {
 		
 		
 		// find whether the person is young or not
-		Scanner sc = new Scanner(System.in);
+		/*Scanner sc = new Scanner(System.in);
 		System.out.print("Enter your Age: ");
 		int age = sc.nextInt();
 		if (age < 1) {
@@ -28,11 +28,11 @@ public class Conditional_statement_1 {
 		}
 		else if (age < 14 || age > 50) {
 			System.out.println("You are not Young");
-		}
+		}*/
 		
 		// find grade for given marks
 		
-		/*Scanner sc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter your marks");
 		System.out.print("Physics: ");
 		float phy = sc.nextFloat();
@@ -47,21 +47,21 @@ public class Conditional_statement_1 {
 		float marks = (phy + chem + math + eng + ip)/5.0f;
 		
 		if (phy > 100) {
-			System.out.println("Invalid entry of marks in Physics, marks should not be greter than 100");
+			System.out.println("Invalid entry of marks in Physics, marks should not be greater than 100");
 		}
 		
 		if (chem > 100) {
-			System.out.println("Invalid entry of marks in Chemistry, marks should not be greter than 100");
+			System.out.println("Invalid entry of marks in Chemistry, marks should not be greater than 100");
 		}
 		if (math > 100) {
-			System.out.println("Invalid entry of marks in Mathematics, marks should not be greter than 100");
+			System.out.println("Invalid entry of marks in Mathematics, marks should not be greater than 100");
 		}
 		
 		if (eng > 100) {
-			System.out.println("Invalid entry of marks in English, marks should not be greter than 100");
+			System.out.println("Invalid entry of marks in English, marks should not be greater than 100");
 		}
 		if (ip > 100) {
-			System.out.println("Invalid entry of marks in IP, marks should not be greter than 100");
+			System.out.println("Invalid entry of marks in IP, marks should not be greater than 100");
 		}
 		if (marks > 100) {
 			System.out.println();
@@ -87,7 +87,7 @@ public class Conditional_statement_1 {
 		}
 		else {
 			System.out.println("Your % is: " +marks+ "\nYour grade is E ");
-		}	*/	
+		}	
 	}
 
 }
