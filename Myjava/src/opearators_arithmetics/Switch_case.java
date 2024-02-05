@@ -65,10 +65,10 @@ public class Switch_case {
 		
 		//Display type of website
 		
-		Scanner sc = new Scanner(System.in);
+	/*	Scanner sc = new Scanner(System.in);
 		System.out.print("Enter url:\s");
 		String url = sc.nextLine();
-		String type =url.substring(url.lastIndexOf(".")+1);
+		String type =url.substring(url.lastIndexOf("."));
 		switch(type) {
 		case "org": System.out.println("Organisation");
 			break;
@@ -78,11 +78,41 @@ public class Switch_case {
 			break;
 		case "in": System.out.println("Indian");	
 			break;
+		case "gov": System.out.println("Government");
+			break;
 		default: System.out.println("Invalid Entry");
 			break;
+		}*/
+		
+		// write 0-9 in words
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter Number:\s");
+		int num = sc.nextInt();
+		
+		switch(num) {
+		case 0: System.out.println("Zero");
+				break;
+		case 1: System.out.println("one");
+				break;
+		case 2: System.out.println("Two");
+				break;
+		case 3: System.out.println("Three");
+				break;
+		case 4: System.out.println("Four");
+				break;
+		case 5: System.out.println("Five");
+				break;
+		case 6: System.out.println("Six");
+				break;
+		case 7: System.out.println("Seven");
+				break;
+		case 8: System.out.println("Eight");
+				break;
+		case 9: System.out.println("Nine");
+				break;
+		default: System.out.println("Invalid Entry");		
 		}
-		
-		
 		
 		
 		
