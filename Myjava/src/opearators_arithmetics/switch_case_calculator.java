@@ -15,10 +15,11 @@ public class switch_case_calculator {
 		System.out.println("-");
 		System.out.println("*");
 		System.out.println("/");
+		System.out.println("%");
 		
 		System.out.println("Enter 2 Number");
 		int x = sc.nextInt();
-		int y = sc.nextInt();
+		float y = sc.nextFloat();
 		sc.nextLine();
 		System.out.println("Enter option. As shown above");
 		String opt = sc.nextLine();
@@ -31,7 +32,9 @@ public class switch_case_calculator {
 					break;
 		case "*": System.out.println("Product is: "+(x * y));	
 					break;
-		case "/":	System.out.println("Ratio is: "+(x / y));
+		case "/": System.out.println("Ratio is: "+(x / y));
+					break;
+		case "%": System.out.println("Percentage is "+(x*(y/100))); 			
 					break;
 		default: System.out.println("Invalid Option! Please Choose from above");	
 					break;
