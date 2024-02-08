@@ -6,7 +6,7 @@ public class Loop_prac_2_76 {
 	public static void main(String[] gin) {
 		
 		
-		// Display AP (Arithmetic Progression)series means 5,10,15,.... and 7,11,15... etc.
+		// Display AP (Arithmetic Progression)series means 5,10,15,.... and 7,11,15... etc.--> AP = a + a*1*d + a*2*d + a*3*d....
 		
 			Scanner sc = new Scanner(System.in);
 			System.out.println("Arithmetic Progression Series");
