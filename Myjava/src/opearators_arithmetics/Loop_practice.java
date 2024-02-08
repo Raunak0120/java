@@ -65,7 +65,8 @@ public class Loop_practice {
 		while (n>0) {
 			r = n%10;
 			n = n/10;
-			rev = rev * 10 + r;
+			rev = rev * 10 + r;// here we use rev to contain the digit for eg. if n = 257 than r gives us 7 and to reverse the order we held 7 by these expression 
+			// as rev is now 0 so 0*10 +7 gives us 7 than loop starts again r gives 5 so rev 7*10+5 = 75 than r gives 2 so rev 75*10+2 = 752 reverse of 257
 		}
 		System.out.println("Reverse no. of "+a+"\sis: "+rev);*/
 		
