@@ -26,10 +26,9 @@ public class Loop_star_prac_80 {
 					System.out.print("  ");
 				}
 			}
-			for (int p=4;p>=1;p--) {
-				for (int q=1;q<=p;q++) {
+			
+			for (int p=1;p<=5-m;p++) {
 					System.out.print("* ");
-				}
 			}
 			System.out.println();
 		}		
