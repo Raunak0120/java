@@ -36,7 +36,7 @@ public class Array_82 {
 		B[2] = 36;// By these we reassign the value of any particular indices as previously B[2] is 4 now it is 36
 		
 			System.out.println();
-			for(int j=0;j<=B.length-1;j++) {
+			for(int j=0;j<B.length;j++) {
 				System.out.print(B[j]+",\s");
 			}
 			System.out.println();
@@ -51,7 +51,7 @@ public class Array_82 {
 			}
 			System.out.println();
 			//Also
-			for (int k=0;k<=C.length-1;k++) {
+			for (int k=0;k<C.length;k++) {
 				System.out.print(C[k]++ +", ");// Here we increment each value of an Array it does not print incremented value in these for loop also for incrementing only these for loop will be use
 			}
 			System.out.println();
