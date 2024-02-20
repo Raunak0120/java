@@ -17,18 +17,19 @@ public class Method_prac_97_2 {
 		for (int i=0,j=a.length-1;i<a.length;i++,j--) {
 			b[i] = a[j];
 		}
+		for(int x:b) {
+			System.out.print(x+", ");
+		}
 		return b;
 	}
 	
 	
 	public static void main(String[] args) {
 		System.out.println(reverse(2001));
-		int a[] = {4, 5, 6 ,7, 8, 9};
-		 int rev[] = reverse(a); 
-		    for(int x : rev) {
-		        System.out.print(x + ", "); 
-		    } 
-		//System.out.print(rev(a)+", ");
+		/*int a[] = {4, 5, 6 ,7, 8, 9};
+		reverse(a);*/
+		  reverse(new int[] {4, 5, 6, 7, 8, 9}); 
+		   
 		
 	}
 
