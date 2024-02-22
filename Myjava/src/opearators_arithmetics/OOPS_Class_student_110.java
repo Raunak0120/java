@@ -17,8 +17,9 @@ class student{
 			return 'A';
 		else
 			return 'B';
-		
-		
+	}
+	public String details() {
+		return "Roll no.: "+rollno+"\n"+"Name: "+name+"\n"+"Course: "+course;
 	}
 }
 
@@ -33,8 +34,9 @@ public class OOPS_Class_student_110 {
 		s.m3 = 72;
 		s.m2 = 89;
 		
-		System.out.printf("Percentage is: "+s.average()+"%");
-		System.out.println("Your grade is: "+s.grade());
+		System.out.println(s.details());
+		System.out.println("Percentage is: "+s.average()+"%");
+		System.out.println(s.name+"'s"+" grade is: "+s.grade());
 		
 
 	}
