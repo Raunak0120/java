@@ -18,7 +18,7 @@ class student{
 		else
 			return 'B';
 	}
-	public String details() {
+	public String toString() {// we take toString because it will act as object and it will print the return parameters 
 		return "Roll no.: "+rollno+"\n"+"Name: "+name+"\n"+"Course: "+course;
 	}
 }
@@ -34,7 +34,7 @@ public class OOPS_Class_student_110 {
 		s.m3 = 72;
 		s.m2 = 89;
 		
-		System.out.println(s.details());
+		System.out.println(s);
 		System.out.println("Percentage is: "+s.average()+"%");
 		System.out.println(s.name+"'s"+" grade is: "+s.grade());
 		
