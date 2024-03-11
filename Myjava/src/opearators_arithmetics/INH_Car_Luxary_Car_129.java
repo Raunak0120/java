@@ -11,7 +11,8 @@ package opearators_arithmetics;
 			System.out.println("Gear is Changed");
 		}
 	}
-	class luxaryCar{
+	class luxaryCar extends car{
+		
 		public void changeGear() {
 			System.out.println("Automatic Gear");
 		}
@@ -33,6 +34,16 @@ public class INH_Car_Luxary_Car_129 {
 		luxaryCar lc =new luxaryCar();
 		lc.changeGear();
 		lc.openRoof();
+		
+		System.out.print("\n");
+		
+		car cl = new luxaryCar();
+		cl.accelerate();
+		cl.start();
+		cl.changeGear();
+		
+		
+		
 
 	}
 

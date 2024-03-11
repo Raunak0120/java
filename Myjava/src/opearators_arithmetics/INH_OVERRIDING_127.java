@@ -1,11 +1,11 @@
 package opearators_arithmetics;
 
-class Super{
+class Super1{
 	public void display() {
 		System.out.println("Super Class Display");
 	}
 }
-class sub extends Super{
+class sub1 extends Super1{
 	/*//@Override by these we redifine the super class */
 	/*public void display() {// this method is for dispalying sub class without any parameter
 		System.out.println("Sub Class Display");
@@ -18,9 +18,9 @@ class sub extends Super{
 public class INH_OVERRIDING_127 {
 
 	public static void main(String[] args) {
-		Super sup = new Super();
+		Super1 sup = new Super1();
 		sup.display();
-		sub s = new sub();
+		sub1 s = new sub1();
 		s.display();
 	}
 
