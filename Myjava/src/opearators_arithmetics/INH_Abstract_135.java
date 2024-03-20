@@ -19,7 +19,7 @@ class Sub3 extends Super3{
 public class INH_Abstract_135 {
 
 	public static void main(String[] args) {
-		Super3 sup =new Sub3();
+		Super3 sup = new Sub3();
 		sup.meth1();
 		sup.meth2();
 		
